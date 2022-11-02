@@ -7,13 +7,30 @@
 
 .cards .card{
     background-color: aqua;
-    width: 90%;
+    width: 80%;
     height: 300px;
     margin: 2rem;
 }
 
+.information{
+    display: flex;
+    flex-direction: column;
+    background-color: #9792e4;
+}
 
+.test-img{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
 
+.img-text{
+    padding: 2rem;
+}
+
+.img-text-two{
+    background-color: brown;
+}
 
 
 /* Responsive */
