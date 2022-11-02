@@ -9,6 +9,29 @@
     padding: 2rem;
 }
 
+#header-blue{
+    background-color: #0084fd;
+    width: 100%;
+}
+
+.navigator{
+    display: flex;
+}
+
+.left-box{
+    background-color: #064e92;
+    width: 50%;
+    height: 50px;
+
+}
+
+.right-box{
+    background-color: #022648;
+    width: 50%;
+    height: 50px;
+
+}
+
 .cards .card{
     background-color: aqua;
     width: 80%;
