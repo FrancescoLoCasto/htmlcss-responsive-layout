@@ -1,5 +1,61 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+
+.container{
+    width: 100%;
+    padding: 2rem;
+}
+
+.cards .card{
+    background-color: aqua;
+    width: 90%;
+    height: 300px;
+    margin: 2rem;
+}
+
+
+
+
+
+/* Responsive */
+
+/* tablet */
+@media screen and (min-width: 768px) {
+    
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cards .card{
+        background-color: aqua;
+        width: calc(100% / 3);
+        height: 300px;
+        margin: 0;
+    }
+
+    .cards .card:first-child{
+        background-color: aqua;
+        width: calc((100% / 3) * 2);
+        height: 300px;
+        margin: 0;
+    }
+
+
+
+}
+
+
+
+/* desktop */
+@media screen and (min-width: 992px) {
+
+    .container{
+        padding: 2rem;
+        width: 900px;
+        margin: 0 auto;
+        
+    }
+
+
+
 }
