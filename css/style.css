@@ -14,35 +14,54 @@
     width: 100%;
 }
 
-.list-header{
 
-    display: none;
-}
 
 .navigator{
     display: flex;
     justify-content: space-between;
 }
 
+.list-header{
+    display: none;
+}
+
 .left-box{
-    background-color: #064e92;
-    width: 50%;
-    height: 50px;
 
 }
 
-.right-box{
-    background-color: #022648;
-    width: 50%;
-    height: 50px;
-    text-align: end;
+.right-box i{
+    color: white;
+    font-size: 2rem;
 }
+
+.test i{
+    font-size: 4.5rem;
+    text-align: center;
+    color: #0084fd;
+}
+
+.test h4{
+    margin: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #0084fd;
+}
+
+
 
 .cards .card{
     background-color: aqua;
     width: 80%;
     height: 300px;
-    margin: 2rem;
+    margin: 3rem;
+    text-align: center;
+    padding-top: 1rem;
+    border-radius: 2rem;
+}
+
+.cards .card:first-child{
+    height: 500px;
+    margin: 3rem;
 }
 
 .phone-img{
@@ -171,6 +190,7 @@
         width: calc(100% / 3);
         height: 300px;
         margin: 0;
+        padding: 1rem;
     }
 
     .cards .card:first-child{
@@ -196,6 +216,37 @@
     .about-text{
         display: flex;
     }
+    .list-header{
+        color: white;
+        display: flex;
+        list-style: none;
+        margin: 1rem;
+        padding-right: 3rem;
+    }
+
+    .item-list{
+        margin-right: 2rem;
+    }
+
+    .right-box i{
+        color: white;
+        font-size: 2rem;
+        display: none;
+    }
+
+    .item-list span{
+        color: black;
+        background-color: white;
+        font-size: 1.2rem;
+        border-radius: 1rem;
+        padding: .3rem;
+    }
+
+    .phone-img{
+        height: 185px;
+        width: 198px;
+    }
+
 
 
 
@@ -240,5 +291,25 @@
     .about-text{
         display: flex;
     }
+
+    .right-box i{
+        color: white;
+        font-size: 2rem;
+        display: none;
+    }
+
+    .item-list span{
+        color: black;
+        background-color: white;
+        font-size: 1.2rem;
+        border-radius: 1rem;
+        padding: .3rem;
+    }
+
+    .phone-img{
+        height: 185px;
+        width: 198px;
+    }
+
 
 }
