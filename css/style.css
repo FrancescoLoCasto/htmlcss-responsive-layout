@@ -244,8 +244,6 @@
 }
 
 .content-text-started{
-    background-color: rgb(8, 17, 144);
-    height: 500px;
     text-align: center;
 }
 
@@ -264,6 +262,41 @@
 #footer-black{
     background-color: rgb(22, 22, 22);
     color: white;
+}
+
+.content-text-started h4{
+    font-size: 2rem;
+    padding: 1rem;
+    color: gray;
+}
+
+.content-text-started h3{
+    font-size: 2.3rem;
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+.content-text-started h1{
+    font-size: 3.5rem;
+    padding: 1rem;
+    color: #fdc15f;
+}
+
+.content-text-started p{
+    font-size: 1rem;
+    padding: 1rem;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.content-text-started span{
+    background-color: white;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 5rem;
+    color: #9792e4;
+    text-align: center;
 }
 
 /* Responsive */
