@@ -75,7 +75,35 @@
     background-color: #9792e4;
 }
 
-.test-img{
+.first-text p{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.first-text h3{
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem;
+    color: #9792e4;
+}
+
+.first-text p{
+    font-size: 1.4rem;
+}
+
+.text-under-img p{
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+
+}
+
+.text-under-img span{
+    font-size: 1.5rem;
+    text-decoration: solid;
+    color: white;
+
 }
 
 .img-planning{
@@ -103,23 +131,22 @@
 .img-text-two{
     background-color: rgb(255, 255, 255);
     border-radius: 2rem;
-    height: 344px;
+    height: 440px;
     text-align: center;
 }
 
 .img-text-box{
-    background-color: aqua;
+    background-color: #9792e4;
     text-align: center;
     display: inline-block;
     border-radius: 2rem;
     margin-top: 2rem;
 }
 
-.img-box{
+.img-box img{
     width: 200px;
     height: 200px;
-    background-color: darkgreen;
-    margin-left: 5rem;
+    border-radius: 50%;
 }
 
 .testimonial-info{
@@ -132,14 +159,52 @@
     border-radius: 2rem;
 }
 
+.text-benefits h1{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem;
+}
+
 .text-card{
     color: #929292;
     padding: 2rem;
     font-size: 1.5rem;
 }
 
-.text-card h2,h3{
+.text-card span{
+    font-size: 1rem;
+    border-radius: 1rem;
+    padding: .7rem;
+    color: white;
+    background-color: #9792e4;
+}
+
+.text-card h2, h3{
     color: #9792e4;
+}
+
+.text-one h3{
+    padding: 1rem;
+}
+
+.text h3{
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.text p{
+    font-style: oblique;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.text i{
+    font-size: 2rem;
+    background-color: #9792e4;
+    padding: 1rem;
+    border-radius: 100%;
+
 }
 
 .title-text{
@@ -201,11 +266,18 @@
     }
 
     .img-text-box{
-        background-color: aqua;
+        background-color: #9792e4;
         text-align: center;
         display: flex;
         border-radius: 2rem;
         margin-top: 2rem;
+    }
+
+    .img-text-two{
+        background-color: rgb(255, 255, 255);
+        border-radius: 2rem;
+        height: 440px;
+        text-align: center;
     }
 
     .card-benefit{
@@ -247,7 +319,45 @@
         width: 198px;
     }
 
+    .text-under-img p{
+        font-size: 2rem;
+        text-align: center;
+        padding: 1rem;
+        color: white;
 
+    }
+    
+    .text-under-img span{
+        font-size: 1.5rem;
+        text-decoration: solid;
+        color: white;
+
+    }
+
+    .first-text p{
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .first-text h3{
+        font-size: 2rem;
+        text-align: center;
+        margin: 1rem;
+        color: #9792e4;
+    }
+    
+    .first-text p{
+        font-size: 1.4rem;
+    }
+
+    .text-card span{
+        font-size: 1rem;
+        border-radius: 1rem;
+        padding: .7rem;
+        color: white;
+        background-color: #9792e4;
+    }
+    
 
 
 }
@@ -281,11 +391,18 @@
 
 
     .img-text-box{
-        background-color: aqua;
+        background-color: #9792e4;
         text-align: center;
         display: flex;
         border-radius: 2rem;
         margin-top: 2rem;
+    }
+
+    .img-text-two{
+        background-color: rgb(255, 255, 255);
+        border-radius: 2rem;
+        height: 440px;
+        text-align: center;
     }
 
     .about-text{
@@ -311,5 +428,42 @@
         width: 198px;
     }
 
+    .text-under-img p{
+        font-size: 2rem;
+        text-align: center;
+        padding: 1rem;
+        color: white;
+    }
+    
+    .text-under-img span{
+        font-size: 1.5rem;
+        text-decoration: solid;
+        color: white;
+    }
+
+    .first-text p{
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .first-text h3{
+        font-size: 2rem;
+        text-align: center;
+        margin: 1rem;
+        color: #9792e4;
+    }
+    
+    .first-text p{
+        font-size: 1.4rem;
+    }
+
+    .text-card span{
+        font-size: 1rem;
+        border-radius: 1rem;
+        padding: .7rem;
+        color: white;
+        background-color: #9792e4;
+    }
+    
 
 }
