@@ -84,21 +84,25 @@
 .img-text-two{
     background-color: rgb(255, 255, 255);
     border-radius: 2rem;
+    height: 344px;
+    text-align: center;
 }
 
 .img-text-box{
     background-color: aqua;
     text-align: center;
-    display: flex;
+    display: inline-block;
     height: 395px;
     width: 84%;
+    border-radius: 2rem;
+    margin-top: 2rem;
 }
 
 .img-box{
     width: 200px;
     height: 200px;
     background-color: darkgreen;
-    margin-left: 7rem;
+    margin-left: 5rem;
 }
 
 .testimonial-info{
@@ -108,8 +112,19 @@
 .card-benefit{
     width: 75%;
     height: 355px;
-    background-color: blue;
+    background-color: white;
     margin-bottom: 2rem;
+    border-radius: 2rem;
+}
+
+.text-card{
+    color: #929292;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+.text-card h2,h3{
+    color: #9792e4;
 }
 
 .title-text{
@@ -169,7 +184,15 @@
         margin: 0;
     }
 
-    
+    .img-text-box{
+        background-color: aqua;
+        text-align: center;
+        display: flex;
+        height: 395px;
+        width: 84%;
+        border-radius: 2rem;
+        margin-top: 2rem;
+    }
 
 
 
