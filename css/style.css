@@ -208,13 +208,39 @@
 }
 
 .title-text{
-    background-color: coral;
-    height: 500px;
+}
+
+.title-text h1{
+    color: #9792e4;
+    font-size: 3rem;
+    padding: 2rem;
+}
+
+.title-text p{
+    font-size: 2rem;
+    padding: 2rem;
 }
 
 .img-text-about{
-    background-color: rgb(144, 45, 8);
-    height: 500px;
+}
+
+.img-about img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+
+.under-img h3{
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.under-img span{
+    font-size: 1rem;
+    padding: 1rem;
+    background-color: #9792e4;
+    border-radius: 2rem;
+    margin-left: 2rem;
 }
 
 .content-text-started{
@@ -357,6 +383,17 @@
         color: white;
         background-color: #9792e4;
     }
+
+    .title-text h1{
+        color: #9792e4;
+        font-size: 3rem;
+        padding: 2rem;
+    }
+    
+    .title-text p{
+        font-size: 2rem;
+        padding: 2rem;
+    }
     
 
 
@@ -465,5 +502,15 @@
         background-color: #9792e4;
     }
     
+    .title-text h1{
+        color: #9792e4;
+        font-size: 3rem;
+        padding: 2rem;
+    }
+    
+    .title-text p{
+        font-size: 2rem;
+        padding: 2rem;
+    }
 
 }
