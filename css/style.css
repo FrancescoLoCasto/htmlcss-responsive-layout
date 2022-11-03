@@ -14,8 +14,14 @@
     width: 100%;
 }
 
+.list-header{
+
+    display: none;
+}
+
 .navigator{
     display: flex;
+    justify-content: space-between;
 }
 
 .left-box{
@@ -29,7 +35,7 @@
     background-color: #022648;
     width: 50%;
     height: 50px;
-
+    text-align: end;
 }
 
 .cards .card{
@@ -140,10 +146,6 @@
         margin: 0;
     }
 
-    .information{
-        display: flex;
-        background-color: #9792e4;
-    }
 
 
 }
@@ -160,11 +162,23 @@
         
     }
 
+
+
     .information{
         display: flex;
         background-color: #9792e4;
+        flex-direction: row;
     }
 
+    .list-header{
+        color: white;
+        display: flex;
+        list-style: none;
+        margin: 1rem;
+    }
 
+    .list-item{
+        
+    }
 
 }
